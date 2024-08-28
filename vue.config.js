@@ -4,10 +4,13 @@ const path = require("path");
 module.exports = defineConfig({
   lintOnSave: false,
   transpileDependencies: true,
+  publicPath:
+    process.env.NODE_ENV === "production" ? "/personal-website/" : "/",
+  outputDir: "docs",
   pages: {
     index: {
       entry: "src/main.js",
-      template: path.resolve(__dirname, "index.html"),
+      template: path.resolve(__dirname, "public/index.html"),
       filename: "index.html",
     },
   },
