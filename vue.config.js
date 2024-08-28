@@ -10,8 +10,9 @@ module.exports = defineConfig({
   pages: {
     index: {
       entry: "src/main.js",
-      template: path.resolve(__dirname, "public/index.html"),
+      template: path.resolve(__dirname, "index.html"),
       filename: "index.html",
+      title: "Yiran Li's Personal Website",
     },
   },
 });
