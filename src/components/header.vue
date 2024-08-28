@@ -3,7 +3,7 @@
     <div class="window-body">
       <menu role="tablist">
         <li role="tab" :aria-selected="isActive('/')" @click="navigate('/')">
-          <a href="#tabs">HomePage</a>
+          <a href="#tabs">Home</a>
         </li>
         <li
           role="tab"
@@ -74,5 +74,25 @@ export default {
 /* 这里可以添加任何额外的自定义样式 */
 menu[role="tablist"] {
   padding-left: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+menu[role="tablist"] li {
+  flex: 1;
+  text-align: center;
+  margin: 0 1px;
+}
+
+menu[role="tablist"] li a {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+menu[role="tablist"] li[aria-selected="true"] a {
+  font-weight: bold;
+  background-color: #dfdfdf;
 }
 </style>

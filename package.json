@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "98.css": "^0.1.20",
+    "body-parser": "^1.20.2",
     "core-js": "^3.8.3",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.14",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
