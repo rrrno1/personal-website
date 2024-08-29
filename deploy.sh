@@ -1,16 +1,16 @@
 #!/usr/bin/env sh
 
-# abort on errors
+# 确保脚本抛出遇到的错误
 set -e
 
-# build
+# 生成静态文件
 npm run build
 
-# navigate into the build output directory
+# 进入生成的文件夹
 cd docs
 
-# if you are deploying to a custom domain
-#echo 'yiranli.tech' > CNAME
+# 如果是发布到自定义域名
+echo 'yiranli.tech' > CNAME
 
 git init
 git add -A
