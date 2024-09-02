@@ -78,9 +78,9 @@ export default {
         },
         {
           id: 4,
-          name: "Singing",
+          name: "Tennis",
           description:
-            "Practicing vocal techniques and performing songs for enjoyment.",
+            "Playing and watching tennis, one of the most popular sports worldwide.",
           timeSpent: "Daily practice sessions of 30 minutes",
           favoriteAspect:
             "Expressing emotions through music and improving vocal range",

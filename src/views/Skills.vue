@@ -37,13 +37,13 @@ export default {
   data() {
     return {
       skills: [
-        { name: "Java", level: 50 },
-        { name: "Python", level: 50 },
-        { name: "HTML", level: 50 },
-        { name: "MySQL", level: 50 },
-        { name: "MyBatis", level: 50 },
-        { name: "Maven", level: 50 },
-        { name: "SpringBoot", level: 50 },
+        { name: "Java", level: 75 },
+        { name: "Python", level: 75 },
+        { name: "HTML", level: 60 },
+        { name: "MySQL", level: 70 },
+        { name: "MyBatis", level: 75 },
+        { name: "Maven", level: 75 },
+        { name: "SpringBoot", level: 75 },
         { name: "Vue", level: 50 },
         { name: "React", level: 50 },
       ],
@@ -54,7 +54,7 @@ export default {
 
 <style scoped>
 .skills {
-  height: 100vh;
+  height: 73vh;
   overflow: hidden;
 }
 

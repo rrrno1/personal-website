@@ -56,7 +56,7 @@ export default {
   align-items: center;
   padding: 20px;
   background-color: #c0c0c0;
-  min-height: 100vh;
+  min-height: 20vh;
 }
 
 .window {

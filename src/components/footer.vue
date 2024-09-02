@@ -3,7 +3,6 @@
     <div class="footer-content">
       <!-- 左侧：联系信息 -->
       <div class="contact-info">
-        <p>Phone：+61-0478295853</p>
         <p>Email：liyiran1_lyr@outlook.com</p>
         <p>Address：Waterloo 2017, Sydney, Australia</p>
         <div class="social-media-links">
